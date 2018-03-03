@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.info6540.com/greekmythologyontology#"
+     xml:base="http://www.info6540.com/greekmythologyontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.info6540.com/greekmythologyontology">
+        <rdfs:comment>This is an ontology that describes various figures from Greek mythology.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035">
+        <rdfs:label xml:lang="en">Deities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
+        <rdfs:label xml:lang="en">Mortals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+        <rdfs:label xml:lang="en">Olympians</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+        <rdfs:label xml:lang="en">Gods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000041 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+        <rdfs:label xml:lang="en">Goddesses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000042 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+        <rdfs:label xml:lang="en">Titans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000043 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000045 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:label xml:lang="en">Heroes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000046 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:label xml:lang="en">Consorts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000047 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+        <rdfs:label xml:lang="en">Parent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000048 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+        <rdfs:label xml:lang="en">Child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000049 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+        <rdfs:label xml:lang="en">Lover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000050 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+        <rdfs:label xml:lang="en">RulesOver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000051 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
+        <rdfs:label xml:lang="en">Sky</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
