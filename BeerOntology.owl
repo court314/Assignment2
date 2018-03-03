@@ -5,8 +5,28 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontologies="http://www.pizza.owl/ontologies/">
     <owl:Ontology rdf:about="http://www.beer.com/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000084 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000084">
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
