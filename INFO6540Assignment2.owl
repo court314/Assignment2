@@ -150,7 +150,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000184"/>
-        <rdfs:label xml:lang="en">Deities</rdfs:label>
+        <rdfs:label xml:lang="en">Divine_Being</rdfs:label>
     </owl:Class>
     
 
@@ -176,7 +176,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
-        <rdfs:label xml:lang="en">Olympians</rdfs:label>
+        <rdfs:label xml:lang="en">Olympian</rdfs:label>
     </owl:Class>
     
 
@@ -185,7 +185,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
-        <rdfs:label xml:lang="en">Gods</rdfs:label>
+        <rdfs:label xml:lang="en">God</rdfs:label>
     </owl:Class>
     
 
@@ -194,7 +194,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000041">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
-        <rdfs:label xml:lang="en">Goddesses</rdfs:label>
+        <rdfs:label xml:lang="en">Goddess</rdfs:label>
     </owl:Class>
     
 
@@ -203,7 +203,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000042">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
-        <rdfs:label xml:lang="en">Titans</rdfs:label>
+        <rdfs:label xml:lang="en">Titan</rdfs:label>
     </owl:Class>
     
 
@@ -213,24 +213,6 @@
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000043">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
         <rdfs:label xml:lang="en">Primordial</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000045 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000045">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
-        <rdfs:label xml:lang="en">Heroes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000046 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000046">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
-        <rdfs:label xml:lang="en">Consorts</rdfs:label>
     </owl:Class>
     
 
@@ -275,6 +257,10 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Zeus is the Greek god of the sky and thunder, and rules as king of the gods of Mount Olympus.
+Zeus&apos; consort may be Hera, but he had many affairs that resulted in many children.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Jupiter</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Zeus</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Zeus</rdfs:label>
     </owl:Class>
     
@@ -284,6 +270,30 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
@@ -298,24 +308,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
             </owl:Restriction>
@@ -326,6 +318,11 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Goddess of women, marriage, family and childbirth.
+Daughter of Cronus and Rhea, and married to her brother Zeus.
+Hera serves as the queen of the gods.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Juno</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Hera</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Hera</rdfs:label>
     </owl:Class>
     
@@ -335,6 +332,64 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Poseidon is the god of the sea and other waters, earthquakes, soil, storms, and horses.
+The son of Cronus and Rhea, he is brother to Zeus and Hades.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Neptune</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Poseidon</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Poseidon</rdfs:label>
     </owl:Class>
     
@@ -346,10 +401,26 @@
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000150"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000150"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Demeter is the goddess of the harvest and agriculture, presiding over grains and the fertility of the earth.
+Daughter of Cronus and Rhea, and mother to Persephone.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Ceres</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Demeter</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Demeter</rdfs:label>
     </owl:Class>
     
@@ -359,6 +430,53 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000172"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Athena is the ancient Greek goddess of wisdom, handicraft, and warfare.
+Athena is portrayed as the companion of heroes and the goddess of heroic endeavour. 
+After Zeus lay with Metis, he swallowed her in fear of her birthing a god wiser than himself. Athena leaped from Zeus&apos; head, fully grown and in full armour.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Minerva</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Athena</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Athena</rdfs:label>
     </owl:Class>
     
@@ -404,6 +522,10 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000101"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Apollo is recognized as the god of music, truth and prophecy, healing, the sun and light, plague, poetry and more.
+The son Zeus and Leto, and is the twin brother of Artemis.
+Patron of Delphi and prohetic deity of the Delphic Oracle.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Apollo</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Apollo</rdfs:label>
     </owl:Class>
     
@@ -413,6 +535,36 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000092">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
@@ -431,6 +583,11 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000157"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Artemis is the goddess of the hunt, forest and hills, the moon, and archery.
+As a virgin godesses, Artemis represented virginity and protecting young girls.
+Daughter of Leto and Zeus, Artemis is the twin sister of Apollo.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Diana</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Artemis</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Artemis</rdfs:label>
     </owl:Class>
     
@@ -440,6 +597,18 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000093">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
@@ -458,6 +627,11 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Ares is the Greek god of war, one of the Twelve Olympians, and the son of Zeus and Hera.
+Often represents the physical or violent aspect of war.
+Well known as the lover of Aphrodite.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Mars</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Ares</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Ares</rdfs:label>
     </owl:Class>
     
@@ -467,6 +641,46 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000113>Venus</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Aphrodite</ontologies:PIZZA_0000176>
+        <rdfs:comment>Anceint Greek goddess of love, beauty, pleasure, and procreation. 
+Either born off the coast from the foam produced by Uranus&apos; gentials when Cronus severed them, OR  she is the daughter of Zeus and Dione</rdfs:comment>
         <rdfs:label xml:lang="en">Aphrodite</rdfs:label>
     </owl:Class>
     
@@ -478,8 +692,8 @@
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000163"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -494,6 +708,12 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Hephaestus is the Greek god of blacksmiths, metalworking, carpenters, craftsmen, artisans, sculptors, metallurgy, fire, and volcanoes.
+Hephaestus is Hera&apos;s parthenogenous child, rejected and thrown of Mount Olympus due to his deformity. In another version, he is the child of Zeus and Hera.
+As a smithing god, Hephaestus made all of the weapons of the gods in Olympus.
+Hephaestus&apos;s consort is Aphrodite, who is unfaithful to him.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000176>Vulcan</ontologies:PIZZA_0000176>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Hephaestus</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Hephaestus</rdfs:label>
     </owl:Class>
     
@@ -505,8 +725,26 @@
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000114"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -515,6 +753,11 @@
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <ontologies:PIZZA_0000106>Hermes is the messenger of the gods and is the guide to the Underworld.
+Hermes is the Greek god of trade, thieves, travelers, sports, athletes, and border 
+Child of Zeus and the Pleiad Maia.</ontologies:PIZZA_0000106>
+        <ontologies:PIZZA_0000113>Mercury</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Hermes</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Hermes</rdfs:label>
     </owl:Class>
     
@@ -546,6 +789,34 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000098">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000113>Bacchus</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000113>God of the grape harvest, winemaking and wine, of ritual madness, fertility, theatre and religious ectasty.
+Often includes in the Twelve Olympians, despite being born from a mortal mother.</ontologies:PIZZA_0000113>
+        <ontologies:PIZZA_0000176>https://en.wikipedia.org/wiki/Dionysus</ontologies:PIZZA_0000176>
         <rdfs:label xml:lang="en">Dionysus</rdfs:label>
     </owl:Class>
     
@@ -1071,8 +1342,8 @@ Daughter of Helios and Perse; other myths make her a daughter of Hecate.</ontolo
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000137 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
-        <rdfs:label xml:lang="en">Semi_Divine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000184"/>
+        <rdfs:label xml:lang="en">Semi_Divine_Being</rdfs:label>
     </owl:Class>
     
 
@@ -1080,7 +1351,7 @@ Daughter of Helios and Perse; other myths make her a daughter of Hecate.</ontolo
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000138 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Electra</rdfs:label>
     </owl:Class>
     
@@ -1089,7 +1360,7 @@ Daughter of Helios and Perse; other myths make her a daughter of Hecate.</ontolo
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000139 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Europa</rdfs:label>
     </owl:Class>
     
@@ -1098,7 +1369,7 @@ Daughter of Helios and Perse; other myths make her a daughter of Hecate.</ontolo
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000141 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000141">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Leda</rdfs:label>
     </owl:Class>
     
@@ -1242,7 +1513,7 @@ Mother of Hecate by Zeus.</ontologies:PIZZA_0000106>
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000158 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000158">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000170"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
         <rdfs:label xml:lang="en">Love</rdfs:label>
     </owl:Class>
     
@@ -1386,7 +1657,7 @@ Mother of Hecate by Zeus.</ontologies:PIZZA_0000106>
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000179 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000179">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Jason</rdfs:label>
     </owl:Class>
     
@@ -1395,7 +1666,7 @@ Mother of Hecate by Zeus.</ontologies:PIZZA_0000106>
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000180 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000180">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Odysseus</rdfs:label>
     </owl:Class>
     
@@ -1404,7 +1675,7 @@ Mother of Hecate by Zeus.</ontologies:PIZZA_0000106>
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000181 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000181">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
         <rdfs:label xml:lang="en">Perseus</rdfs:label>
     </owl:Class>
     
@@ -1462,6 +1733,15 @@ During the course of his life, Heracles was married to Megara, Omphale, Deianira
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000184">
         <rdfs:label xml:lang="en">Being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000185 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000185">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:label xml:lang="en">Semele</rdfs:label>
     </owl:Class>
     
 
