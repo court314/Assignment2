@@ -4468,6 +4468,7 @@ Alcmene is known as the mother of Heracles.</ontologies1:greekmyth_0000106>
     <!-- http://www.greek_mythology_figures.owl/ontologies/greekmyth_0000191 -->
 
     <owl:Class rdf:about="http://www.greek_mythology_figures.owl/ontologies/greekmyth_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.greek_mythology_figures.owl/ontologies/greekmyth_0000184"/>
         <ontologies1:greekmyth_0000106>This is a class for the name of figures from Greek mythology.</ontologies1:greekmyth_0000106>
         <rdfs:label xml:lang="en">Name_of_figures</rdfs:label>
     </owl:Class>
