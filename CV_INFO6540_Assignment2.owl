@@ -10,7 +10,10 @@
      xmlns:ontologies="http://www.greek_mythology.owl/ontologies/">
     <owl:Ontology rdf:about="http://www.info6540.com/greekmythologyontology">
         <owl:versionIRI rdf:resource="http://www.info6540.com/greekmythologyontology"/>
+        <ontologies1:greekmyth_0000176>http://www.theoi.com/</ontologies1:greekmyth_0000176>
+        <ontologies1:greekmyth_0000176>https://en.wikipedia.org/</ontologies1:greekmyth_0000176>
         <rdfs:comment>This is an ontology that describes various figures from Greek mythology.</rdfs:comment>
+        <rdfs:isDefinedBy>Greek mythology is the body of myths and teachings that belong to the ancient Greeks, concerning their gods and heroes, the nature of the world, and the origins and significance of their own cult and ritual practices.</rdfs:isDefinedBy>
     </owl:Ontology>
     
 
